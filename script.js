@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Replace with your OpenWeatherMap API key
         const apiKey = "3923455d775630c10dfc2e9a327f6663";
-        const apiUrl = `http://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${apiKey}`;
+        const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${apiKey}`;
 
         fetch(apiUrl)
             .then((response) => response.json())
